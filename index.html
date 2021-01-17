@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="./src/assets/styles/global.css">
+  <script src="https://kit.fontawesome.com/8957e9a71b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="menu">
+    <div class="left">
+      <label for="button-submenu">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="button-submenu" style="display: none;">
+      <div class="submenu hide">
+        <ul>
+          <a href="./index.html"><li>Inicio</li></a>
+          <a href="./sobre.html"><li>Sobre nós</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+      <a href="./login.html"><button class="entrar" id="entrar">Entrar</button></a>
+    </div>
+  </nav>
+  <div class="content"></div>
+
+  <script src="./src/libs/menu.js"></script>
+  <script src="./src/libs/db.js"></script>
+</body>
+</html>
